@@ -1,5 +1,3 @@
-
-  
 -- Online SQL Editor to Run SQL Online.
 -- Use the editor to create new tables, insert data and all other SQL operations.
   
@@ -29,4 +27,7 @@ insert into employee values(3,'pritesh','agarwal');
 insert into employee values(4,'panthil','patil');
 
 select * from employee;
+
+select * from employee
+where name like 'A%';
   
