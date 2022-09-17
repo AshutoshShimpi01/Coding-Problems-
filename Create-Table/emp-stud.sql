@@ -1,3 +1,5 @@
+
+  
 -- Online SQL Editor to Run SQL Online.
 -- Use the editor to create new tables, insert data and all other SQL operations.
   
@@ -16,7 +18,7 @@ create table student
   reg_year integer,
   grade text,
   hod text,
-  foreign key(emp_id) references employee(emp_id)
+  foreign key(student_id) references employee(emp_id)
   
 );
 
