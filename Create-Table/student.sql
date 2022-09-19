@@ -34,3 +34,11 @@ select * from student;
 -- 2|vinod|khade|sits|10
 -- 3|dhiraj|shinde|sits|9.2
 
+
+
+alter table student drop column gpa;
+
+1|ashu|shimpi|sits
+2|vinod|khade|sits
+3|dhiraj|shinde|sits
+
