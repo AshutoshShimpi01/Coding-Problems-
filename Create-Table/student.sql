@@ -42,3 +42,7 @@ alter table student drop column gpa;
 2|vinod|khade|sits
 3|dhiraj|shinde|sits
 
+
+insert into student(Student_id,Name) values(2,'vinod');
+
+2|vinod||
