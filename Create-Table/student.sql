@@ -50,3 +50,13 @@ insert into student(Student_id,Name) values(2,'vinod');
 Last text not null,
 
 insert into student(Student_id,Name,Last) values(2,'vinod','l');
+
+------------------------
+
+Name text unique,
+
+insert into student values(3,'dhiraj','shinde','sits',9.2);
+insert into student values(5,'dhiraj','shinde','sits',9.2);
+// Error: near line 25: stepping, UNIQUE constraint failed: student.Name
+
+------------------------
