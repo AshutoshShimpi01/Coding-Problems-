@@ -13,9 +13,6 @@ Primary key(Student_id)
 
 
 
-
-
-
 alter table student add gpa decimal(2,3);
 
 insert into student values(1,'ashu','shimpi','sits',8.43);
@@ -34,7 +31,7 @@ select * from student;
 -- 2|vinod|khade|sits|10
 -- 3|dhiraj|shinde|sits|9.2
 
-
+-------------------
 
 alter table student drop column gpa;
 
@@ -42,7 +39,14 @@ alter table student drop column gpa;
 2|vinod|khade|sits
 3|dhiraj|shinde|sits
 
+----------------------
 
 insert into student(Student_id,Name) values(2,'vinod');
 
 2|vinod||
+
+----------------------
+
+Last text not null,
+
+insert into student(Student_id,Name,Last) values(2,'vinod','l');
