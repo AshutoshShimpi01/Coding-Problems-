@@ -61,3 +61,15 @@ Output-
 3|yog|khr
 
 [Execution complete with exit code 0]
+
+----------------------
+
+update student
+set coe = 'coep'
+where coe = 'don';
+output-
+2|keshu|jag|coep|2000
+
+-----------------------
+
+
