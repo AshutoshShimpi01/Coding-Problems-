@@ -68,7 +68,7 @@ update student
 set coe = 'coep'
 where coe = 'don';
 output-
-2|keshu|jag|coep|2000
+2|keshu|jag|coep|2000 OR  where stud_id = 2;
 
 -----------------------
 
