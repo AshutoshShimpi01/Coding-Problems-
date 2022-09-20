@@ -88,3 +88,14 @@ where stud_id=1;
 2|keshu|jag|don|2000
 3|yog|khr|pict|2200
 4|ashu|shmp|sits|800
+
+
+----------------------
+
+select *
+from student
+where coe in ('sits','sdp') and stud_id > 1;
+
+2|keshu|jag|sits|2000
+3|yog|khr|sdp|2200
+4|ashu|shmp|sits|800
