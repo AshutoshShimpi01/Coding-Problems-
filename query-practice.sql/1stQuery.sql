@@ -72,4 +72,19 @@ output-
 
 -----------------------
 
+update student
+set coe = 'pict'
+where coe = 'dy' or coe='sdp';
 
+1|shri|jag|pict|1200
+2|keshu|jag|don|2000
+3|yog|khr|pict|2200
+
+-------------------------
+
+delete from student
+where stud_id=1;
+
+2|keshu|jag|don|2000
+3|yog|khr|pict|2200
+4|ashu|shmp|sits|800
