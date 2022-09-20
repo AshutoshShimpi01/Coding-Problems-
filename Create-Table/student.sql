@@ -60,3 +60,23 @@ insert into student values(5,'dhiraj','shinde','sits',9.2);
 // Error: near line 25: stepping, UNIQUE constraint failed: student.Name
 
 ------------------------
+
+
+
+
+
+create table student
+(
+stud_id integer AUTO INCREMENT,
+name text,
+last text,
+coe text,
+primary key(stud_id)
+);
+insert into student(name,last) values('ram','sham');
+insert into student(name,last) values('am','shm');
+
+select * from student;
+
+1|ram|sham|
+2|am|shm|
