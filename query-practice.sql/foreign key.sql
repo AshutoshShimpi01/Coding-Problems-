@@ -49,3 +49,17 @@ shri|ceo
 keshu|founder
 yog|hr
 ashu|sd
+
+----------------------
+https://www.programiz.com/
+ERROR
+
+alter table Customers add shipping_id integer;
+alter table Shippings add customer_id integer;
+
+alter table Customers
+add foreign key(shipping_id)
+referesnce Shippings(customer_id)
+on delete set null;
+
+-----------------------
