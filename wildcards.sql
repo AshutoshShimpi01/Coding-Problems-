@@ -46,3 +46,13 @@ where name Like 'y%' ;
 3|yog|khr|sdp|2200
 5|yuvi|khr|sdp|2200
 
+----------------------
+
+
+select *
+from student
+where name Like '%i';
+
+1|shri|jag|dy|1200
+5|yuvi|khr|sdp|2200
+
