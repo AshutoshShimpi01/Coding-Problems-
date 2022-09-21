@@ -64,3 +64,35 @@ select avg(sal)
 from student;
 
 1828.57142857143    total salary add divided by no. of empId
+
+
+
+select avg(sal)
+from student
+where sex = 'M';
+1680.0                only Males
+
+----------------------
+
+select count(sex),sex
+from student
+group by sex;
+
+2|F
+5|M
+
+----------------------
+
+select sum(sal), stud_id
+from student
+group by stud_id;
+
+1200|1
+2000|2
+2200|3
+800|4
+2200|5
+2200|6
+2200|7
+
+---------------------
