@@ -57,3 +57,10 @@ where sex = 'F' and sal > 2000;
  
 Output
 2
+
+------------------
+
+select avg(sal)
+from student;
+
+1828.57142857143    total salary add divided by no. of empId
