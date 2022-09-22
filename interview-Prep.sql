@@ -52,3 +52,15 @@ Output
 
 -------------------
 
+
+//select no. of student per joining year
+
+select count(joiningY) as noOfEmployee,joiningY
+from employee
+group by joiningY;
+
+2|2011
+1|2012
+1|2017
+
+----------------------
