@@ -55,12 +55,14 @@ Output
 
 //select no. of student per joining year
 
-select count(joiningY) as noOfEmployee,joiningY
-from employee
-group by joiningY;
+select count(joiningY) as noOfEmployee,joiningY       SAME                select count(emp_id) as noOfEmployee,joiningY
+from employee                                                             from employee
+group by joiningY;                                                        group by joiningY;
 
 2|2011
 1|2012
 1|2017
 
 ----------------------
+
+
