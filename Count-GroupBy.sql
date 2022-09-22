@@ -73,6 +73,7 @@ where sex = 'M';
 1680.0                only Males
 
 ----------------------
+Find out how many males and females there are
 
 select count(sex),sex
 from student
@@ -82,6 +83,7 @@ group by sex;
 5|M
 
 ----------------------
+// Find the total salary of each salesman
 
 select sum(sal), stud_id
 from student
