@@ -63,3 +63,19 @@ yog|khr
 yuvi|khr
 rani|jad
 shruti|shmp
+
+
+
+
+
+
+
+nested Video
+
+1st-Query
+Select first_name,last_name
+From Employee
+Where emp_id in(
+Select emp_id
+From Works_with
+Where total_sales > 50,000);
