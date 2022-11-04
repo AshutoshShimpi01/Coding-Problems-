@@ -1,3 +1,9 @@
+-- The Group By statement is used for organizing similar data into groups. 
+
+-- The SELECT statement is used with the GROUP BY clause in the SQL query.
+-- WHERE clause is placed before the GROUP BY clause in SQL.
+-- ORDER BY clause is placed after the GROUP BY clause in SQL.
+
 
 create table student
 (
